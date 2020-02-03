@@ -1,8 +1,10 @@
 body {
   font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-size: 14px;
   line-height: 1;
 }
+
+
 
 textarea{
   background: transparent;
@@ -12,6 +14,8 @@ textarea{
   border-left: 1px solid black;
   padding: 10px;
 }
+
+
 
 .jumbotron {
   text-align: center;
@@ -57,13 +61,47 @@ textarea{
   color: white;
 }
 
+
+/*this one is good */
+
+.currentHour{
+  width: 10%;
+  text-align: right;
+  height: 40px;
+  padding: 15px;
+  border-right: 1px solid rgba(211, 211, 211, 0.781);
+  border-top: 1px solid rgba(211, 211, 211, 0.781);
+}
+
 .saveBtn {
+  width: 10%;
   border-left: 1px solid black;
-  border-top-right-radius: 15px;
-  border-bottom-right-radius: 15px;
+  border-top-right-radius: 5px;
+  border-bottom-right-radius: 5px;
   background-color: #06AED5;
   color: white;
+  text-align: center;
+  padding-top: 15px;
+  border-bottom: 1px solid rgba(211, 211, 211, 0.781);
+  
 }
+
+
+.taskArea{
+  width: 80%;
+  text-align: left;
+  padding-left: 15px;
+  padding-top: 15px;
+  background:#77dd77;
+  border-right: 1px solid rgba(211, 211, 211, 0.781);
+  border-top: 1px solid rgba(211, 211, 211, 0.781);
+}  
+
+
+.timeDisplay{
+  display: flex;
+}
+
 
 .saveBtn i:hover {
   font-size: 20px;
